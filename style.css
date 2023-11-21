@@ -72,22 +72,19 @@ p + span{
 }
 
 ._1{
-  font-size: 22px;
+  height: 35px;
   width: 30%;
   background-color: orange;
-  color: orange;
 }
 
 ._2{
-  font-size: 22px;
+  height: 35px;
   width: 60%;
   background-color: #1ec31e;
-  color: #1ec31e;
 }
 
 ._3{
-  font-size: 22px;
+  height: 35px;
   width: 15%;
   background-color: red;
-  color: red;
 }
