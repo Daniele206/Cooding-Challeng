@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+  margin:0
+}
+body{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+}
+
+body > div{
+  background-color:rgba(0,0,0,0.4);
+  border-radius: 20px;
+  width: 70%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+header > img{
+  display: inline-block;
+  width: 20%;
+}
+
+header > p{
+  font-size: 30px;
+  color: #00dd00;
+  font-weight: 900;
+}
+
+nav{
+  background-color: #00dd00;
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  border: 10px solid #00dd00;
+  border-radius: 2px
+}
+
+main{
+  color: white;
+  width: 85%;
+  margin: auto;
+}
+
+section > span{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+section > p{
+
+  font-size: 20px;
+}
+
+.arrow:before{
+  content: "\21A6";
+}
+
+p + span{
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+._1{
+  font-size: 22px;
+  width: 30%;
+  background-color: orange;
+  color: orange;
+}
+
+._2{
+  font-size: 22px;
+  width: 60%;
+  background-color: #1ec31e;
+  color: #1ec31e;
+}
+
+._3{
+  font-size: 22px;
+  width: 15%;
+  background-color: red;
+  color: red;
+}
